@@ -18,5 +18,7 @@ module.exports = gql`
     register(registerInput: RegisterInput): User!
     login(username: String!, password: String!): User!
   }
-  type Query {}
+  type Query {
+    lorem: String
+  }
 `;
